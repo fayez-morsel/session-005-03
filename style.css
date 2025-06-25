@@ -55,7 +55,7 @@ nav{
 }
 
 #input::placeholder{
-    font-weight: 550;
+    font-weight: 400;
     color: black;
     font-size: 18px;
 }
@@ -182,9 +182,36 @@ nav{
     height: 250px;
     width: 1200px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(bgsection4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#input1{
+    height: 30px;
+    border-bottom: solid 2px black;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0 0 10px 10px;
+    margin-top: 20px;
+    
+}
 
+#input1::placeholder{
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+}
+
+
+#input1:focus {
+    outline: none;
+    border-bottom: solid 2px black; 
+}
+
+.section4>input{
+    border: none;
+    width: 400px;
+}
