@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .header{
@@ -30,6 +30,12 @@ body{
     color: black;
     font-weight: bold;
     font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav>a:hover {
+  border-bottom: solid 1px #535353;
+  color: #535353;
 }
 
 .nav{
@@ -45,13 +51,26 @@ body{
     align-items: center;
 }
 
+.header-div1{
+    transition: transform 0.5s ease;
+}
+
+.header-div1:hover{
+    transform: scale(1.2);
+}
+
 
 #input{
     height: 30px;
     border-bottom: solid 2px black;
     background-color: rgba(255, 255, 255, 0);
     padding: 0 0 10px 10px;
-    
+    transition: all 0.3s ease-in-out;
+}
+
+#input:hover{
+    background-color: #afafaf;
+    border-radius: 10px;
 }
 
 #input::placeholder{
@@ -72,7 +91,7 @@ body{
 .section2{
     background-color: #e6e1e3;
     height: 600px;
-    width: 1200px;
+    width: 1400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -117,13 +136,13 @@ body{
 
 .section3{
     background-color: #e6e1e3;
-    width: 1200px;
-    height: 600px;
+    width: 1400px;
+    height: 700px;
     padding: 30px 100px 50px 100px;
 }
 
 .section3>h2{
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     text-align: center;
 }
 
@@ -180,7 +199,7 @@ body{
 
 .section4{
     height: 250px;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +237,7 @@ body{
 
 .section5{
     height: 350px;
-    width: 1200px;
+    width: 1400px;
     background-color: #e6e1e3;
 }
 
@@ -243,7 +262,7 @@ figcaption{
 
 footer{
     background-color: #E1DAD1;
-    width: 1200px;
+    width: 1400px;
     height: 100px;
     display: flex;
     justify-content: center;
