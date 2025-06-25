@@ -69,3 +69,11 @@ nav{
   outline: none;
   border-bottom: solid 2px black; 
 }
+
+.section2{
+    background-color: #e6e1e3;
+    height: 600px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
