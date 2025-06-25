@@ -215,3 +215,28 @@ nav{
     border: none;
     width: 400px;
 }
+
+.section5{
+    height: 350px;
+    width: 1200px;
+    background-color: #e6e1e3;
+}
+
+.section5>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 262px;
+}
+
+.section5>h2{
+    text-align: center;
+    padding: 50px 0 10px 0;
+}
+
+figcaption{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
