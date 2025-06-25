@@ -114,3 +114,63 @@ nav{
     border: none;
     background-color: #D9CBAE;
 }
+
+.section3{
+    background-color: #e6e1e3;
+    width: 1200px;
+    height: 600px;
+    padding: 30px 100px 50px 100px;
+}
+
+.section3>h1{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.section3-body{
+    display: flex;
+    
+}
+
+.section3-body-1{
+    width: 500px;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(robezara2.jpg);
+    margin-right: 10px;
+}
+
+.section3-body-2{
+    width: 600px;
+    height: 480px;
+}
+
+.section3-body-2>div{
+    width: 600px;
+    height: 50%;
+}
+
+.section3-body-2-1{
+     width: 500px;
+    height: 235px;
+    background-image: url(uni.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 10px;
+    background-position-y:65%;
+}
+
+.section3-body-2-2{
+     width: 500px;
+    height: 235px;
+    background-image: url(imgg.jpg);
+    background-size: cover;
+    background-position-y:15%;
+}
+
+.ppp{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
