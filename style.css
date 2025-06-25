@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1{
+    background-image: url(bgsection1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 800px;
+}
