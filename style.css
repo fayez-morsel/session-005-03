@@ -69,8 +69,7 @@ body{
 }
 
 #input:hover{
-    background-color: #afafaf;
-    border-radius: 10px;
+    background-color: #c7c6c6;
 }
 
 #input::placeholder{
@@ -296,6 +295,11 @@ body{
 .section5>h2{
     text-align: center;
     padding: 50px 0 10px 0;
+    transition: color 0.5s ease-in-out;
+}
+
+.section5>h2:hover{
+    color: burlywood;
 }
 
 figcaption{
@@ -320,12 +324,14 @@ footer{
     color: black;
     font-size: 10px;
     padding: 0 15px;
+    transition: all 0.5s ease-in-out;
 }
 
 #nav2>a{
     text-decoration: none;
     color: black;
     font-size: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 #nav2>li{
@@ -336,4 +342,12 @@ footer{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+#nav1>a:hover{
+    color: chocolate;
+}
+
+#nav2>a:hover{
+    color: chocolate;
 }
