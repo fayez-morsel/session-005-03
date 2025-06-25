@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .header{
@@ -30,6 +30,12 @@ body{
     color: black;
     font-weight: bold;
     font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav>a:hover {
+  border-bottom: solid 1px #535353;
+  color: #535353;
 }
 
 .nav{
@@ -45,13 +51,25 @@ body{
     align-items: center;
 }
 
+.header-div1{
+    transition: transform 0.5s ease;
+}
+
+.header-div1:hover{
+    transform: scale(1.2);
+}
+
 
 #input{
     height: 30px;
     border-bottom: solid 2px black;
     background-color: rgba(255, 255, 255, 0);
     padding: 0 0 10px 10px;
-    
+    transition: all 0.3s ease-in-out;
+}
+
+#input:hover{
+    background-color: #c7c6c6;
 }
 
 #input::placeholder{
@@ -72,7 +90,7 @@ body{
 .section2{
     background-color: #e6e1e3;
     height: 600px;
-    width: 1200px;
+    width: 1400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -88,12 +106,23 @@ body{
 .section2-right{
     display: flex;
     align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2-right:hover{
+    transform: rotate(45deg);
 }
 
 .section2-left-1{
     font-size: 20px;
     font-weight:550;
     width: 440px;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2-left-1:hover{
+    transform: translateY(-70%);
 }
 
 .section2-left-2{
@@ -102,6 +131,12 @@ body{
     width: 440px;
     line-height: 1.8;
     margin: 15px 0;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2-left-2:hover{
+    transform: translateX(30%);
 }
 
 .section2-left>div{
@@ -113,17 +148,22 @@ body{
     width: 120px;
     border: none;
     background-color: #D9CBAE;
+    transition: all 0.5s ease-in-out;
+}
+
+.section2-left>div>button:hover{
+    background-color: bisque;
 }
 
 .section3{
     background-color: #e6e1e3;
-    width: 1200px;
-    height: 600px;
+    width: 1400px;
+    height: 700px;
     padding: 30px 100px 50px 100px;
 }
 
 .section3>h2{
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     text-align: center;
 }
 
@@ -137,14 +177,30 @@ body{
     height: 490px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(robezara2.jpg);
+    background-image: url(robezara2.avif) ;
     margin-right: 10px;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section3-body-1:hover{
+    background-image: url(imim1.webp);
+    transform: scale(1.1);
 }
 
 .section3-body-2{
     width: 600px;
     height: 480px;
+}
+
+.section3-body-2-1:hover{
+    transform: scale(1.1);
+    background-image: url(imim2.webp);
+}
+
+.section3-body-2-2:hover{
+    transform: scale(1.1);
+    background-image: url(imim3.webp);
 }
 
 .section3-body-2>div{
@@ -161,6 +217,7 @@ body{
     margin-bottom: 10px;
     background-position-y:65%;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .section3-body-2-2{
@@ -170,6 +227,7 @@ body{
     background-size: cover;
     background-position-y:15%;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .ppp{
@@ -180,7 +238,7 @@ body{
 
 .section4{
     height: 250px;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,7 +254,11 @@ body{
     background-color: rgba(255, 255, 255, 0);
     padding: 0 0 10px 10px;
     margin-top: 20px;
-    
+    transition: all 0.5s ease-in-out;
+}
+
+#input1:hover{
+    width: 600px;
 }
 
 #input1::placeholder{
@@ -218,7 +280,7 @@ body{
 
 .section5{
     height: 350px;
-    width: 1200px;
+    width: 1400px;
     background-color: #e6e1e3;
 }
 
@@ -233,6 +295,11 @@ body{
 .section5>h2{
     text-align: center;
     padding: 50px 0 10px 0;
+    transition: color 0.5s ease-in-out;
+}
+
+.section5>h2:hover{
+    color: burlywood;
 }
 
 figcaption{
@@ -243,7 +310,7 @@ figcaption{
 
 footer{
     background-color: #E1DAD1;
-    width: 1200px;
+    width: 1400px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -257,12 +324,14 @@ footer{
     color: black;
     font-size: 10px;
     padding: 0 15px;
+    transition: all 0.5s ease-in-out;
 }
 
 #nav2>a{
     text-decoration: none;
     color: black;
     font-size: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 #nav2>li{
@@ -273,4 +342,12 @@ footer{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+#nav1>a:hover{
+    color: chocolate;
+}
+
+#nav2>a:hover{
+    color: chocolate;
 }
