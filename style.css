@@ -25,14 +25,14 @@ body{
     height: 84px;
 }
 
-nav>a{
+.nav>a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 14px;
 }
 
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,4 +239,38 @@ figcaption{
     font-size: 12px;
     text-align: center;
     padding: 5px;
+}
+
+footer{
+    background-color: #E1DAD1;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#nav1>a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 0 15px;
+}
+
+#nav2>a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+#nav2>li{
+    list-style: none;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
