@@ -178,14 +178,30 @@ body{
     height: 490px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(robezara2.jpg);
+    background-image: url(robezara2.avif) ;
     margin-right: 10px;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section3-body-1:hover{
+    background-image: url(imim1.webp);
+    transform: scale(1.1);
 }
 
 .section3-body-2{
     width: 600px;
     height: 480px;
+}
+
+.section3-body-2-1:hover{
+    transform: scale(1.1);
+    background-image: url(imim2.webp);
+}
+
+.section3-body-2-2:hover{
+    transform: scale(1.1);
+    background-image: url(imim3.webp);
 }
 
 .section3-body-2>div{
@@ -202,6 +218,7 @@ body{
     margin-bottom: 10px;
     background-position-y:65%;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .section3-body-2-2{
@@ -211,6 +228,7 @@ body{
     background-size: cover;
     background-position-y:15%;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .ppp{
