@@ -20,41 +20,157 @@ body{
 .header{
     display: flex;
     justify-content:space-between;
-    padding: 30px 50px;
+    align-items: center;
+    padding: 0 50px;
+    height: 84px;
 }
 
 nav>a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
     margin-left: 140px;
 }
 
-.body-section1{
+.header-div2{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 80%;
-    padding: 0 63px 0 74px;
 }
+
 
 #input{
     height: 30px;
     border-bottom: solid 2px black;
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0 0 10px 10px;
     
 }
 
 #input::placeholder{
     font-weight: 550;
     color: black;
+    font-size: 18px;
 }
 
 .header-div3>input{
     border: none;
+}
+
+#input:focus {
+  outline: none;
+  border-bottom: solid 2px black; 
+}
+
+.section2{
+    background-color: #e6e1e3;
+    height: 600px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section2-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-right{
+    display: flex;
+    align-items: center;
+}
+
+.section2-left-1{
+    font-size: 20px;
+    font-weight:550;
+    width: 440px;
+}
+
+.section2-left-2{
+    font-size: 18px;
+    color: #535353;
+    width: 440px;
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+.section2-left>div{
+    width: 440px;
+}
+
+.section2-left>div>button{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: #D9CBAE;
+}
+
+.section3{
+    background-color: #e6e1e3;
+    width: 1200px;
+    height: 600px;
+    padding: 30px 100px 50px 100px;
+}
+
+.section3>h1{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.section3-body{
+    display: flex;
+    
+}
+
+.section3-body-1{
+    width: 500px;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(robezara2.jpg);
+    margin-right: 10px;
+}
+
+.section3-body-2{
+    width: 600px;
+    height: 480px;
+}
+
+.section3-body-2>div{
+    width: 600px;
+    height: 50%;
+}
+
+.section3-body-2-1{
+     width: 500px;
+    height: 235px;
+    background-image: url(uni.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 10px;
+    background-position-y:65%;
+}
+
+.section3-body-2-2{
+     width: 500px;
+    height: 235px;
+    background-image: url(imgg.jpg);
+    background-size: cover;
+    background-position-y:15%;
+}
+
+.ppp{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
 }
